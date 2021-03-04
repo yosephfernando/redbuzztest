@@ -1,6 +1,4 @@
 let missingNumber = [];
-let resArr = [];
-
 function oneMissNumber(arr){
     let newSortedArray = [];
     for(let i = 0;i<arr.length;i++){
@@ -19,7 +17,6 @@ function oneMissNumber(arr){
             newSortedArray.push(currentVal);
             oneMissNumber(newSortedArray);
         }
-        resArr = newSortedArray;
     }
 }
 
@@ -27,6 +24,5 @@ let inputArr = [1, 2, 3, 4, 5, 6, 8, 9, 10];
 oneMissNumber(inputArr);
 console.log("Answer number one");
 console.log("x >>>>", inputArr);
-// console.log("New sroted array >>>>", resArr);
-console.log("y >>>>", missingNumber);
+console.log("y >>>>", missingNumber[0]);
 console.log("********************************");

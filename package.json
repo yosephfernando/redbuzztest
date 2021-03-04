@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "probone": "node probOne.js",
+        "probtwo": "node probTwo.js",
+        "probthree": "node probThree.js",
+        "probfour": "node probFour.js",
+        "all": "node probOne.js && node probTwo.js && node probThree.js && node probFour.js"
+    }
+}

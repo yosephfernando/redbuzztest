@@ -7,5 +7,5 @@
 
 ## How to install ##
 1. Make sure you have node js installed on your machine ( [Here's the link how to install node js](https://nodejs.org/en/) )
-2. Clone this repository `git clone`
+2. Clone this repository `git clone https://github.com/yosephfernando/redbuzztest.git`
 3. Run the available scripts in your terminal eg: `npm run all`
